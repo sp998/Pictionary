@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorPrimaryDark">@color/main_layout</color>
+    <color name="colorAccent">#D81B60</color>
+
+ <color name="main_layout">#2a0d50</color>
+   <color name="timer_color">#6b5587</color>
+<!--    -->
+<!--    <color name="timer_color">#1565C0</color>-->
+<!--    <color name="main_layout">#1E88E5</color>-->
+
+    <!--Button Colors-->
+ <color name="btn_reset">#fe647e</color>
+
+
+    <color name="btn_start">#7669ff</color>
+    <color name="btn_next">#089</color>
+
+   <color name="btn_pause">#f44336</color>
+
+
+
+</resources>
