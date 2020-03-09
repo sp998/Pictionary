@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun alertTimeUp(){
         val alarmTone = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
-        val player = RingtoneManager.getRingtone(applicationContext, alarmTone)
+        val player =MediaPlayer.create(this,alarmTone)
         Alerter.create(this)
             .setTitle("Time Up")
             .setText("Your time is up")
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
             .setOnShowListener(OnShowAlertListener {
                 isNotificationRunning=true
                 player.isLooping=true
-                player.play()
+                player.start()
             })
             .setOnHideListener(OnHideAlertListener {
                 isNotificationRunning=false
