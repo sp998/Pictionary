@@ -1,0 +1,51 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.kotlin_test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.2] /home/sanjay/.gradle/caches/transforms-2/files-2.1/c7e28cf33a8972d116e817b742b7a10c/core-1.0.2/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:documentLaunchMode="intoExisting"
+15-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:11:9-50
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:10:9-35
+20        android:theme="@style/AppTheme" >
+20-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:12:9-40
+21        <activity
+21-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:13:9-20:20
+22            android:name="com.example.kotlin_test.MainActivity"
+22-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:13:19-47
+23            android:screenOrientation="portrait" >
+23-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:14:13-49
+24            <intent-filter>
+24-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:16:17-69
+25-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:18:17-77
+27-->/home/sanjay/AndroidStudioProjects/Kotlin_test/app/src/main/AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
